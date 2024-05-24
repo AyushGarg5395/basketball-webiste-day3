@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(27, 36, 74, 1);
+  display: flex;
+  justify-content: center;
+  width: 575px;
+  height: 385px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout {
+  margin-top: 28px;
+}
+
+#home-section {
+  margin: 0 100px 0 0;
+}
+
+.title-section {
+  color: rgba(238, 238, 238, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score {
+  width: 150px;
+  height: 140px;
+  background-color: rgba(8, 0, 1, 1);
+  color: rgba(249, 79, 109, 1);
+  font-size: 90px;
+  padding: 0px 16px;
+  align-content: center;
+  border-radius: 5px;
+}
+
+.addup-scores {
+  display: flex;
+  justify-content: center;
+  margin: 26px 0 30px 0;
+}
+
+.add-scores {
+  border: 2px solid rgba(154, 171, 216, 1);
+  width: 45px;
+  height: 45px;
+  margin: 0px 8px;
+  color: rgba(154, 171, 216, 1);
+  align-content: center;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+#guest-section {
+  margin: 0;
+}
